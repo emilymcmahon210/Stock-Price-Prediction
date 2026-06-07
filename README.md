@@ -99,8 +99,8 @@ Future iterations could incorporate:
 These additional variables may improve predictive performance and better capture market behavior surrounding earnings announcements.
 
 ### Repository Contents
-Jupyter Notebook containing full analysis and modeling workflow
-Final project report
-Dataset used for analysis
-Visualizations and model evaluation outputs
+- Jupyter Notebook containing full analysis and modeling workflow
+- Final project report
+- Dataset used for analysis
+- Visualizations and model evaluation outputs
 
