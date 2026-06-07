@@ -25,7 +25,7 @@ After merging and cleaning the datasets, several custom features were created:
 
 ## Tools & Technologies
 
-Python, Pandas, NumPy, Scikit-learn, Matplotlib, Machine Learning, Statistical Analysis & Feature Engineering
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, Machine Learning, Statistical Analysis and Feature Engineering
 
 ## Methodology
 
@@ -43,19 +43,19 @@ Exploratory Data Analysis
 
 ## Machine Learning Models
 
-#####Linear Regression
+Linear Regression
 
 Used to predict the magnitude of stock price changes following earnings announcements.
 
-#####Logistic Regression
+Logistic Regression
 
 Used to classify whether stock prices would move up or down after earnings releases.
 
-#####Random Forest Classifier
+Random Forest Classifier
 
 Applied to capture potential nonlinear relationships between earnings surprise variables and stock price movement.
 
-#####Hierarchical Clustering
+Hierarchical Clustering
 
 Performed exploratory segmentation of earnings events to identify patterns in market reactions.
 
@@ -70,10 +70,12 @@ RMSE = 0.1081
 The regression model demonstrated virtually no predictive power. Results indicated that earnings surprise variables alone explained almost none of the variation in short-term stock price movement.
 
 Random Forest:
+
 Accuracy: 56.82%
 AUC: 0.58
 
 Logistic Regression:
+
 Accuracy: 56.34%
 AUC: 0.63
 
@@ -108,6 +110,5 @@ Jupyter Notebook containing full analysis and modeling workflow
 Final project report
 Dataset used for analysis
 Visualizations and model evaluation outputs
-
 #### Author
 Emily McMahon | Data Analytics & Business Professional
