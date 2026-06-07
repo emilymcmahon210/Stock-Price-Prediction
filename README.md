@@ -35,7 +35,7 @@ Data Preparation:
 - Standardized features
 - Split data into training and testing datasets (80/20)
 
-Exploratory Data Analysis
+Exploratory Data Analysis:
 - Correlation analysis
 - Scatterplots
 - Summary statistics
@@ -43,25 +43,22 @@ Exploratory Data Analysis
 
 ## Machine Learning Models
 
-Linear Regression
-
+#### Linear Regression
 Used to predict the magnitude of stock price changes following earnings announcements.
 
-Logistic Regression
-
+#### Logistic Regression
 Used to classify whether stock prices would move up or down after earnings releases.
 
-Random Forest Classifier
-
+#### Random Forest Classifier
 Applied to capture potential nonlinear relationships between earnings surprise variables and stock price movement.
 
-Hierarchical Clustering
+#### Hierarchical Clustering
 
 Performed exploratory segmentation of earnings events to identify patterns in market reactions.
 
 ## Results
 
-Linear Regression:
+Linear Regression:  
 
 R² = -0.0004
 MAE = 0.0596
@@ -69,15 +66,15 @@ RMSE = 0.1081
 
 The regression model demonstrated virtually no predictive power. Results indicated that earnings surprise variables alone explained almost none of the variation in short-term stock price movement.
 
-Random Forest:
+Random Forest:  
 
-Accuracy: 56.82%
-AUC: 0.58
+Accuracy: 56.82%  
+AUC: 0.58  
 
-Logistic Regression:
+Logistic Regression:  
 
-Accuracy: 56.34%
-AUC: 0.63
+Accuracy: 56.34%  
+AUC: 0.63  
 
 While both models performed slightly better than random guessing, predictive performance remained limited.
 
