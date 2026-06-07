@@ -25,15 +25,7 @@ After merging and cleaning the datasets, several custom features were created:
 
 ## Tools & Technologies
 
-Python
-Pandas
-NumPy
-Scikit-learn
-Matplotlib
-Machine Learning
-Statistical Analysis
-Feature Engineering
-
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, Machine Learning, Statistical Analysis & Feature Engineering
 
 ## Methodology
 
@@ -80,11 +72,11 @@ Results indicated that earnings surprise variables alone explained almost none o
 
 Classification Models
 
-# Random Forest
+## Random Forest
 Accuracy: 56.82%
 AUC: 0.58
 
-# Logistic Regression
+## Logistic Regression
 Accuracy: 56.34%
 AUC: 0.63
 
@@ -114,11 +106,11 @@ Future iterations could incorporate:
 
 These additional variables may improve predictive performance and better capture market behavior surrounding earnings announcements.
 
-## Repository Contents
+### Repository Contents
 Jupyter Notebook containing full analysis and modeling workflow
 Final project report
 Dataset used for analysis
 Visualizations and model evaluation outputs
 
-## Author
+### Author
 Emily McMahon | Data Analytics & Business Professional
