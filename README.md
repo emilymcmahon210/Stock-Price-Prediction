@@ -1,4 +1,4 @@
-# Stock-Price-Reaction-to-Earnings-Announcements
+# Stock Price Reaction to Earnings Announcements
 
 ## Overview
 Financial markets often react to corporate earnings announcements, but the extent to which earnings surprises can predict short-term stock price movement remains uncertain. This project evaluates whether earnings-related variables alone can be used to forecast stock performance following earnings releases. Using historical stock market and earnings announcement data, I developed machine learning and statistical models to analyze the relationship between earnings surprises and subsequent stock price reactions.
@@ -43,40 +43,37 @@ Exploratory Data Analysis
 
 ## Machine Learning Models
 
-1. Linear Regression
+#####Linear Regression
 
 Used to predict the magnitude of stock price changes following earnings announcements.
 
-2. Logistic Regression
+#####Logistic Regression
 
 Used to classify whether stock prices would move up or down after earnings releases.
 
-3. Random Forest Classifier
+#####Random Forest Classifier
 
 Applied to capture potential nonlinear relationships between earnings surprise variables and stock price movement.
 
-4. Hierarchical Clustering
+#####Hierarchical Clustering
 
 Performed exploratory segmentation of earnings events to identify patterns in market reactions.
 
 ## Results
-Linear Regression
 
-The regression model demonstrated virtually no predictive power:
+Linear Regression:
 
-- R² = -0.0004
-- MAE = 0.0596
-- RMSE = 0.1081
+R² = -0.0004
+MAE = 0.0596
+RMSE = 0.1081
 
-Results indicated that earnings surprise variables alone explained almost none of the variation in short-term stock price movement.
+The regression model demonstrated virtually no predictive power. Results indicated that earnings surprise variables alone explained almost none of the variation in short-term stock price movement.
 
-Classification Models
-
-## Random Forest
+Random Forest:
 Accuracy: 56.82%
 AUC: 0.58
 
-## Logistic Regression
+Logistic Regression:
 Accuracy: 56.34%
 AUC: 0.63
 
@@ -106,11 +103,11 @@ Future iterations could incorporate:
 
 These additional variables may improve predictive performance and better capture market behavior surrounding earnings announcements.
 
-### Repository Contents
+#### Repository Contents
 Jupyter Notebook containing full analysis and modeling workflow
 Final project report
 Dataset used for analysis
 Visualizations and model evaluation outputs
 
-### Author
+#### Author
 Emily McMahon | Data Analytics & Business Professional
