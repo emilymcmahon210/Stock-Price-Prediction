@@ -1,4 +1,4 @@
-# Stock Price Reaction to Earnings Announcements
+# Stock Price Reactions to Earnings Announcements
 Machine learning analysis evaluating whether earnings surprise metrics can predict short-term stock price movements following corporate earnings announcements.
 
 ## Overview
